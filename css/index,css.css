@@ -1,0 +1,22 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+ul,li{
+	list-style:none;
+}
+input{
+ 	outline:none;
+}
+button{
+ 	outline:none;
+}
+body {
+	width:1172px;
+ 	font-family:"微软雅黑", "宋体","黑体";
+}
+#head{
+	width:1172px;
+	height:23px;
+	background:url(./image/top.gif) #A691AA no-repeat;
+}

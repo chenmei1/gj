@@ -1,0 +1,83 @@
+#main{
+	height:1230px;
+	*height:1315px;
+}
+#maincontent{
+	*height:1100px;
+	min-height:1000px;
+}
+#newslist{
+	width:920px;
+	min-height:250px;
+	margin:0 auto;
+	margin-top:23px;
+	margin-left:44px;
+}
+#newslist p{
+	display:inline-block;
+	padding-left:10px;
+	padding-right:10px;
+	height:24px;
+	line-height:24px;
+	color:#FFF;
+	background:#66346F;
+	text-align:center;
+	font-family:'宋体';
+	font-size:15px;
+}
+#list{
+	width:920px;
+	min-height:148px;
+	padding-bottom:10px;
+	border:1px solid #A1A1A1;
+	font-family:'微软雅黑';
+}
+#list ul{
+	margin:13px 50px 0 43px;
+}
+#list ul li{
+	width:823px;
+	height:17px;
+	line-height:17px;
+	background:red;
+	margin-top:10px;
+	position:relative;
+	background:url(../image/point.png) no-repeat left center;
+}
+#list ul li span{
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+#list ul li a{
+	margin-left:10px;
+	color:#000;
+}
+#look{
+	width:80px;
+	height:25px;
+	line-height:25px;
+	display:block;
+	margin:20px 0 10px 400px ;
+	background:url(../image/look.png) #D0D0D0 no-repeat 90% 40%;
+	color:#66346F;
+	padding-right:18px;
+	text-align:center;
+	cursor:pointer;
+}
+#hiddenlist{
+	display:none;
+}
+#plist{
+	width:920px;
+	height:20px;
+	float:left;
+	text-align:center;
+	margin-left:83px;
+}
+#plist span{
+	margin-right:10px;
+}
+#plist a{
+	margin-right:8px;
+}

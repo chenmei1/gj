@@ -1,0 +1,35 @@
+#main{
+	height:1230px;
+}
+#pcontent{
+	width:927px;
+	min-height:800px;
+	margin:0 auto;
+}
+#pcontent h1{
+	width:927px;
+	height:20px;
+	margin-top:20px;
+	text-align:center;
+	font-weight:normal;
+	font-family:'黑体';
+	font-size:32px;
+}
+#pcontent span{
+	display:block;
+	width:927px;
+	height:20px;
+	line-height:20px;
+	margin-top:20px;
+	padding:10px 0 15px 0;
+	text-align:center;
+	color:#999999;
+	border-bottom: 1px dashed #ccc;
+}
+#detail{
+	height:500px;
+	padding-top:20px;
+	text-indent:2em;
+	line-height: 23px;
+	word-spacing:4px;
+}

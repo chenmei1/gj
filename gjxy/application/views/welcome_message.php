@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<title>国际学院</title>
+<link href="./css/common.css" rel="stylesheet" type="text/css" />
+<link href="./css/index.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" href="./js/move.js"></script>
+<script>
+function getByClass(oParent,sClass){
+   var aEle=oParent.getElementsByTagName('*');
+   var aResult=[];
+   for(var i=0;i<aEle.length;i++){
+	     if(aEle[i].className==sClass){
+			   aResult.push(aEle[i]);
+			 }
+	   }
+   return aResult;
+}
+</script>
+</head>
+<body>
+	<div id="main">
+		<div id="head">
+			<div class="logo"><img src="./image/logo.png"></div>
+			<div  class="title"><img src="./image/title.png"></div>
+			<p><a href="">院长书记邮箱|</a><a href="">English</a></p>
+			<div id="submit">
+				<form action="" method="post">
+				<input type="text" name="submit" id="sou" value="|请输入关键字"  onclick="this.value=''"/>
+				<input type="submit" id="config" value=""/>
+				</form>
+			</div>
+			<div id="nav">
+				<ul>
+					<li><a class="tactive" href="index.html">首页</a></li>
+					<li><a href="college.html">学院概况</a></li>
+					<li><a href="news.html">新闻公告</a></li>
+					<li><a href="#">学院风采</a></li>
+					<li><a href="#">学生管理</a></li>
+					<li><a href="#">教学管理</a></li>
+					<li><a href="#">相关规定</a></li>
+					<li><a href="#">下载专区</a></li>
+					<li><a href="#">联系我们</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="img">
+			<div id="slider" class="imglist">
+				<ul class="test">
+					<li class="case">
+						<img  border="0"class="bigpic" src="./image/testpic.gif">
+					</li>
+					<li class="case">
+						<img  border="0"class="bigpic" src="./image/pictest2.jpg">
+					</li><li class="case">
+						<img  border="0"class="bigpic" src="./image/pictest3.jpg">
+					</li>
+					<li class="case">
+						<img  border="0"class="bigpic" src="./image/pictest4.jpg">
+					</li>
+				</ul>
+				<img  class="smallpic" src="./image/pic8.png">
+			</div>
+			<script type="text/javascript" src="js/script.js"></script>
+		</div>
+			
+		
+		<div id="maincontent">
+			<div id="left">
+				<div id="left-top">
+				<p class="newtitle">学院新闻</p><p class="more"><a href="#">更多...</a></p>
+				</div>
+				<div id="icon">
+					<img class="line" src="./image/testline.png">
+					<div class="intro">
+						<img src="./image/pic5.png">
+						<div class="content">
+							<h1><a href="#">国际学院勇夺2014重庆邮电大学演讲比赛冠军</a></h1>
+							<p><a href="#">经过近一个半月的层层角逐，3月12日下午4:30，2014年重庆邮电大学演讲打响，国际学院留学生参赛队对阵传媒学院参赛队。决赛在科技会堂正式打响，最终我院......</a></p>
+						</div>
+					</div>
+					<div class="intro">
+						<img src="./image/pic5.png">
+						<div class="content">
+							<h1><a href="#">国际学院勇夺2014重庆邮电大学演讲比赛冠军</a></h1>
+							<p><a href="#">经过近一个半月的层层角逐，3月12日下午4:30，2014年重庆邮电大学演讲打响，国际学院留学生参赛队对阵传媒学院参赛队。决赛在科技会堂正式打响，最终我院......</a></p>
+						</div>
+					</div>
+					<div class="list">
+						<img src="./image/pic7.png">
+						<ul>
+							<li><a href="">我院举办毕业生送别晚会</a><span>[14-06-06]</span></li>
+							<li><a href="">我院举办毕业生送别晚会</a><span>[14-06-06]</span></li>
+							<li><a href="">我院举办毕业生送别晚会</a><span>[14-06-06]</span></li>
+							<li><a href="">我院举办毕业生送别晚会</a><span>[14-06-06]</span></li>
+						</ul>
+				</div>
+				<div class="listsed">
+					<ul>
+						<li><a href="">我院举办毕业生送别晚会</a><span>[14-06-06]</span></li>
+						<li><a href="">我院举办毕业生送别晚会</a><span>[14-06-06]</span></li>
+						<li><a href="">我院举办毕业生送别晚会</a><span>[14-06-06]</span></li>
+						<li><a href="">我院举办毕业生送别晚会</a><span>[14-06-06]</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="bottomline">
+			</div>
+			<div class="clear"></div>
+			<div class="left-bottom">
+				<div class="left-b">
+				<p class="newtitle">通知公告</p><p class="more"><a href="#">更多...</a></p>
+				</div>
+				<div class="lcontent">
+					<img src="./image/bottom.png">
+					<ul>
+						<li><a href="">我院教职工体检通知...</a><span>[14-06-06]</span></li>
+						<li><a href="">我院教职工体检通知...</a><span>[14-06-06]</span></li>
+						<li><a href="">我院教职工体检通知...</a><span>[14-06-06]</span></li>
+						<li><a href="">我院教职工体检通知...</a><span>[14-06-06]</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="left-bo">
+				<div class="left-b">
+				<p class="newtitle">学院风采</p><p class="more"><a href="#">更多...</a></p>
+				</div>
+				<div class="lcontent">
+					<ul>
+						<li><a href="">我院教职工体检通知...</a><span>[14-06-06]</span></li>
+						<li><a href="">我院教职工体检通知...</a><span>[14-06-06]</span></li>
+						<li><a href="">我院教职工体检通知...</a><span>[14-06-06]</span></li>
+						<li><a href="">我院教职工体检通知...</a><span>[14-06-06]</span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="right">
+			<div id="right-top">
+				<p class="newtitle">招生信息</p><p class="more"><a href="#">更多...</a></p>
+			</div>
+			<div class="clear"></div>
+			<div id="rightcontent">
+				<img src="./image/right.png">
+				<ul>
+					<li><a href="">2014年重庆邮电大学国际学院招生</a><span>14-08-06</span></li>
+					<li><a href="">2014年重庆邮电大学国际学院招生</a><span>14-08-06</span></li>
+					<li><a href="">2014年重庆邮电大学国际学院招生</a><span>14-08-06</span></li>
+					<li><a href="">2014年重庆邮电大学国际学院招生</a><span>14-08-06</span></li>
+					<li><a href="">2014年重庆邮电大学国际学院招生</a><span>14-08-06</span></li>
+					<li><a href="">2014年重庆邮电大学国际学院招生</a><span>14-08-06</span></li>
+				</ul>	
+			</div>
+			<div class="right-bo">
+				<div class="right-b">
+				<p class="newtitle">资源下载</p><p class="more"><a href="#">更多...</a></p>
+				</div>
+				<div class="rcontent">
+					<ul>
+						<li><a href="">我院教职工体检通知...</a><span>[14-06-06]</span></li>
+						<li><a href="">我院教职工体检通知...</a><span>[14-06-06]</span></li>
+						<li><a href="">我院教职工体检通知...</a><span>[14-06-06]</span></li>
+						<li><a href="">我院教职工体检通知...</a><span>[14-06-06]</span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="link">
+		<span>友情链接:</span>
+		<a href="">重庆邮电大学</a>
+		<a href="">国际处</a>
+		<a href="">重庆市教育委员会</a>
+		<a href="">重庆市公安局</a>
+		<a href="">重庆邮市外市侨务办公室</a>
+	</div>
+	<div id="foot">
+		<div id="footcontent">
+			<p>重庆邮电大学国际学院©版权所有<a href="">关于我们</a><a href="">管理入口</a></p>
+			<p>通讯地址：重庆市南岸区崇文路2号重庆邮电大学国际学院  邮编：400065</p>
+			<p>电话：（023）62480019 传真：（023）62471951  重庆邮电大学蓝山工作室制作</p>
+		</div>
+	</div>
+	</div>
+</body>
+</html>

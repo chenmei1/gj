@@ -1,0 +1,158 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+ul,li{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	border:none;
+}
+input{
+ 	outline:none;
+}
+button{
+ 	outline:none;
+}
+a{
+	text-decoration: none;
+}
+body {
+	margin:0px auto;
+	width:1172px;
+	height:900px;
+ 	font-family:"微软雅黑", "宋体","黑体";
+}
+#main{
+	width:1172px;
+	height:1200px;
+	background:url(../image/back.gif);
+}
+#head{
+	width:1172px;
+	height:213px;
+	background:url(../image/top.gif) #A691AA no-repeat;
+	position:relative;
+}
+#head .logo{
+	margin:16px 0 0 70px;
+	float:left;
+	position:absolute;
+}
+#head .title{
+	width:500px;
+	position:relative;
+	top:32px;
+	left:255px;
+}
+#head p{
+	float:right;
+	margin:-70px 25px 0 0;
+}
+#head p a{
+	width:100px;
+	height:30px;
+	float:left;
+	display:block;
+	color:#F0C8E4;
+	font-size:16px;
+}
+#submit{
+	width:227px;
+	height:27px;
+	background:#AF73CA;
+	position:absolute;
+	right:72px;
+	top:42px;
+
+	padding:0px;
+}
+#sou{
+	width:196px;
+	height:21px;
+	float:left;
+	margin:1px 0 1px 2px;
+	font-size:11px;
+	color:#C8C8C8;
+}
+#config{
+	width:20px;
+	height:20px;
+	background:url(../image/submit.png) no-repeat;
+	float:left;
+	border:none;
+	margin:5px 0 0 5px;
+	cursor:pointer;
+}
+#nav{
+	width:1028px;
+	height:32px;
+	padding:0px;
+	float:left;
+	margin:83px 0 0 73px;
+}
+#nav ul{
+	width:992px;
+	height:32px;
+}
+#nav li{
+	float:left;
+}
+#nav li a{
+	font-family:"微软雅黑";
+	font-size:24px;
+	color:#FFF;
+	margin-left:19px;
+}
+#nav li a:hover{
+	color:#ffaa6b;
+}
+#nav ul li .tactive{
+	color:#ffaa6b;
+}
+#maincontent{
+	width:1027px;
+	height:1000px;
+	margin:0 auto;
+}
+.secondnav{
+	width:1027px;
+	margin-top:14px;
+	height:22px;
+	border-bottom:2px solid #66346F;
+}
+.secondnav a{
+	color:#000;
+	height:21px;
+	line-height:21px;
+	display:block;
+	font-size:16px;
+	font-family:'微软雅黑';
+	float:left;
+	margin-right:10px;
+	*padding-bottom:5px;
+}
+#maincontent img{
+	margin-top:20px;
+}
+#foot{
+	width:1172px;
+	height:87px;
+	float:left;
+	background:url(../image/foot.gif);
+}
+#footcontent{
+	margin-top:19px;
+}
+#footcontent p{
+	width:1172;
+	height:20px;
+	color:#FFF;
+	font-size:12px;
+	font-size:"宋体";
+	text-align:center;
+}
+#footcontent a{
+	color:#FFF;
+	margin-left:15px;
+}
